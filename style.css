@@ -463,3 +463,102 @@ p{
         width: 100%;
     }
 }
+
+/* General Mobile Styles */
+@media (max-width: 480px) {
+    /* Navigation */
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav-links ul {
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav-links ul li {
+        text-align: left;
+        padding: 10px 0;
+    }
+    .nav-links ul li a {
+        font-size: 14px;
+    }
+    nav img {
+        width: 120px;
+    }
+
+    /* Sub-header */
+    .sub-header {
+        height: 200px;
+        padding: 20px;
+    }
+    .sub-header h1 {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    /* Text Content */
+    .text-box h1 {
+        font-size: 28px;
+    }
+    .text-box p {
+        font-size: 12px;
+    }
+    .btn {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+    /* Rows and Columns */
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .course-col,
+    .campus-col,
+    .facilities-col,
+    .testimonials-col {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    .about-col img,
+    .facilities-col img,
+    .campus-col img {
+        width: 100%;
+    }
+
+    /* Blog Page */
+    .blog-content {
+        padding: 20px;
+    }
+    .blog-left,
+    .blog-right {
+        flex-basis: 100%;
+    }
+    .blog-right h3 {
+        font-size: 16px;
+    }
+    .blog-right div {
+        padding: 10px;
+    }
+
+    /* Contact Page */
+    iframe {
+        width: 100%;
+    }
+    .contact-col {
+        flex-basis: 100%;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 20px 10px;
+    }
+    .footer h4 {
+        font-size: 18px;
+    }
+    .icons img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
