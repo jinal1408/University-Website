@@ -463,8 +463,77 @@ p{
         width: 100%;
     }
 }
-/* Media Queries (Mobile First) */
-@media (min-width: 576px) { /* Small screens and up */
-    .course .row .course-col,
-    .campus .row .campus-col,
-    .facilities .row .facilities-
+
+/* General Styles for Small Screens */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-links ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-links ul li {
+        padding: 5px 0;
+    }
+    .text-box {
+        width: 100%;
+        left: 0;
+        padding: 0 10px;
+    }
+    .text-box h1 {
+        font-size: 28px;
+    }
+    .text-box p {
+        font-size: 14px;
+    }
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .course-col, .campus-col, .facilities-col, .testimonials-col {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    .cta h1 {
+        font-size: 24px;
+    }
+}
+
+/* Extra Small Screens */
+@media (max-width: 480px) {
+    nav img {
+        width: 120px;
+    }
+    .sub-header {
+        height: 200px;
+    }
+    .sub-header h1 {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    .text-box h1 {
+        font-size: 22px;
+    }
+    .btn {
+        font-size: 12px;
+        padding: 8px 20px;
+    }
+    .footer h4 {
+        font-size: 16px;
+    }
+    .footer p {
+        font-size: 12px;
+    }
+    .icons img {
+        width: 30px;
+        height: 30px;
+    }
+    .contact-col div img {
+        width: 40px;
+    }
+    .contact-col div h5 {
+        font-size: 16px;
+    }
+}
