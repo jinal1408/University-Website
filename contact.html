@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+        <h1>Contact us</h1>
+    </section>
+    <!-- Contact us -->
+    <section class="location">
+        <iframe
+            src="https://maps.google.com/maps?q=35.856737, 10.606619&z=15&output=embed"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <img src="Images/home.png" alt="">
+                    <span>
+                        <h5>XYZ Road, ABC Building</h5>
+                        <p>Washington, USA</p>
+                    </span>
+                </div>
+                <div>
+                    <img src="Images/phone.png" alt="">
+                    <span>
+                        <h5>+1 0123456789</h5>
+                        <p>Monday to Saturday, 10AM to 6PM</p>
+                    </span>
+                </div>
+                <div>
+                    <img src="Images/mail.png" alt="">
+                    <span>
+                        <h5>info@gmail.com</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form class="contact-form" id="contactForm" method="POST">
+                    <input type="text" id="name1" placeholder="Enter Your Name">
+                    <input type="email" id="email1" placeholder="Enter Email Address">
+                    <input type="text" id="subject1" placeholder="Enter Your Subject">
+                    <textarea rows="8" id="message1" placeholder="Message"></textarea>
+                    <button type="submit" class="btn red-btn" onclick="submitForm()">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem similique dolores rem necessitatibus<br>
+            eligendi ducimus delectus sunt expedita quasi obcaecati?</p>
+        <div class="icons">
+            <img src="Images/facebook.png" alt="">
+            <img src="Images/instagram.png" alt="">
+            <img src="Images/twitter.png" alt="">
+            <img src="Images/linkedin.png" alt="">
+        </div>
+        <p>Copyright &copy; All rights reserved</p>
+    </section>
+    <!-- Javascript for toggle menu -->
+    <script src="script.js"></script>
+</body>
+</html>
